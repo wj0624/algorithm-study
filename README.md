@@ -1,4 +1,4 @@
-# algorithm-study-w.python
+# algorithm study with python
 
 (1주차)
 
