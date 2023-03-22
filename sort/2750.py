@@ -5,4 +5,4 @@ for i in range(n):
 
 num.sort() #정렬(기본 오름차순)
 for i in range(len(num)):
-    print(num[i]) #정렬된 숫자 한 개씩 출력
+    print(num[i]) #정렬된 숫자 1개씩 출력
