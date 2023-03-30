@@ -8,8 +8,8 @@
 | 2750  |  수 정렬하기   | ![Python](https://img.shields.io/badge/BRONZE%20II-CD7F32?style=flat)  |   ✅    |
 | 2587  |    대표값 2    | ![Python](https://img.shields.io/badge/BRONZE%20II-CD7F32?style=flat)  |   ✅    |
 | 25305 |    커트라인    | ![Python](https://img.shields.io/badge/BRONZE%20II-CD7F32?style=flat)  |   ✅    |
-| 10989 | 수 정렬하기 3  |  ![Python](https://img.shields.io/badge/BRONZE%20I-CD7F32?style=flat)  |   ✅    |
-| 2108  |     통계학     | ![Python](https://img.shields.io/badge/SILVER%20III-A3A3A3?style=flat) |   ✅    |
+| 10989 | 수 정렬하기 3  |  ![Python](https://img.shields.io/badge/BRONZE%20I-CD7F32?style=flat)  |   👀    |
+| 2108  |     통계학     | ![Python](https://img.shields.io/badge/SILVER%20III-A3A3A3?style=flat) |   👀    |
 | 1427  |  소트인사이드  |  ![Python](https://img.shields.io/badge/SILVER%20V-A3A3A3?style=flat)  |   ✅    |
 | 11650 | 좌표 정렬하기  |  ![Python](https://img.shields.io/badge/SILVER%20V-A3A3A3?style=flat)  |   ✅    |
 | 11651 | 좌표 정렬하기2 |  ![Python](https://img.shields.io/badge/SILVER%20V-A3A3A3?style=flat)  |   ✅    |
@@ -25,8 +25,8 @@
 
 |   #   |   Title   |                               Difficulty                               | Status |
 | :---: | :-------: | :--------------------------------------------------------------------: |:------:|
-| 9012  |   괄호    | ![Python](https://img.shields.io/badge/SILVER%20IV-A3A3A3?style=flat)  |        |
-| 10828 |   스택    | ![Python](https://img.shields.io/badge/SILVER%20IV-A3A3A3?style=flat)  |        |
+| 9012  |   괄호    | ![Python](https://img.shields.io/badge/SILVER%20IV-A3A3A3?style=flat)  |   👀   |
+| 10828 |   스택    | ![Python](https://img.shields.io/badge/SILVER%20IV-A3A3A3?style=flat)  |   ✅   |
 | 10773 |   제로    | ![Python](https://img.shields.io/badge/SILVER%20IV-A3A3A3?style=flat)  |        |
 | 1874  | 스택 수열 | ![Python](https://img.shields.io/badge/SILVER%20III-A3A3A3?style=flat) |      |
 
