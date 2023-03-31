@@ -1,6 +1,7 @@
 #VPS는 '('와 ')'의 개수가 같아야 함
 t = int(input())
 for i in range(t):
+    #flag = 0
     stack = []
     str = input()
     for j in str:
@@ -11,7 +12,9 @@ for i in range(t):
                 stack.pop() #stack에 있는 data pop
             else:
                 print("NO")#stack에 아무것도 없는 경우 -> ')'가 남았는데 '('이 없다는 뜻
+                #flag = 1
                 break
+    #if not flag :
     else:
         if not stack : #'('와 ')'개수가 동일
             print("YES")
