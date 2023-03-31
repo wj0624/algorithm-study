@@ -3,6 +3,7 @@ t = int(input())
 for i in range(t):
     stack = []
     str = input()
+    #flag = 0
     for j in str:
         if j == '(':
             stack.append(j) #stack에 추가
@@ -11,8 +12,10 @@ for i in range(t):
                 stack.pop() #stack에 있는 data pop
             else:
                 print("NO")#stack에 아무것도 없는 경우 -> ')'가 남았는데 '('이 없다는 뜻
+                #flag = 1
                 break
     else:
+        #if not flag :
         if not stack : #'('와 ')'개수가 동일
             print("YES")
         else:
