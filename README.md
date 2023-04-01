@@ -34,8 +34,8 @@
 
 |   #   |      Title      |                              Difficulty                               | Status |
 | :---: | :-------------: | :-------------------------------------------------------------------: |:----:|
-| 10845 |       큐        | ![Python](https://img.shields.io/badge/SILVER%20IV-A3A3A3?style=flat) |      |
-| 2164  |      카드2      | ![Python](https://img.shields.io/badge/SILVER%20IV-A3A3A3?style=flat) |      |
+| 10845 |       큐        | ![Python](https://img.shields.io/badge/SILVER%20IV-A3A3A3?style=flat) |  ✅  |
+| 2164  |      카드2      | ![Python](https://img.shields.io/badge/SILVER%20IV-A3A3A3?style=flat) |  👀  |
 | 11866 | 요세푸스 문제 0 | ![Python](https://img.shields.io/badge/SILVER%20V-A3A3A3?style=flat)  |      |
 | 15235 | Olympiad Pizza  | ![Python](https://img.shields.io/badge/SILVER%20V-A3A3A3?style=flat)  |      |
 
