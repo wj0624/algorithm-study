@@ -1,8 +1,9 @@
 import sys
 import heapq
 
-n = int(input())
+#heapq 모듈은 기본적으로 최소 힙으로 구현되어 있음
 heap = []
+n = int(input())
 for i in range(n):
     x = int(sys.stdin.readline())
     if x > 0:
