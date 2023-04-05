@@ -1,4 +1,5 @@
-#메모리 초과 문제 !!
+#메모리 초과 문제
+#한 줄씩 입력 받을 때마다 정렬
 import sys, heapq
 n = int(input())
 heap = []
