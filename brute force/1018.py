@@ -1,11 +1,9 @@
 import sys
 # n, m : size of rows and columns
 n, m = map(int, input().split())
-board = []
+board = [sys.stdin.readline().strip() for i in range(n)]
 cnt = []
 
-for i in range(n):
-    board.append(sys.stdin.readline().strip())
 #print(board)
 
 #체스판을 8 * 8로 자르기
