@@ -35,5 +35,5 @@ for i in range(n):
         if j+1 < n:
             candy[i][j], candy[i][j+1] = candy[i][j+1], candy[i][j] #swap
             ans = max(ans, cnt(candy))
-            candy[i][j], candy[i][j + 1] = candy[i][j+1], candy[i][j] #swap
+            candy[i][j], candy[i][j + 1] = candy[i][j+1], candy[i][j] #원래대로
 print(ans)
