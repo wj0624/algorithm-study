@@ -1,5 +1,3 @@
-package goorm;
-
 import java.io.*;
 import java.util.*;
 
