@@ -11,7 +11,7 @@ public class day1 {
 		W = Double.parseDouble(st.nextToken());
 		R = Double.parseDouble(st.nextToken());
 		
-		//double끼리 연산할 때는 숫자도 소숫점으로 나타내어야 함
+		//double끼리 연산할 때는 숫자도 소숫점으로 나타내어야 제대로 계산 됨
 		//int로 casting하면 소숫점이하 버림
 		ans = (int) ((1+R/30.0)*W);
 		
