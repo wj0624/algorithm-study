@@ -1,5 +1,6 @@
-# algorithm study with python
 # Algorithm Study
+
+#HUHS Study (백준 온라인)
 ✅ 👀
 ### week1 : 정렬
 
