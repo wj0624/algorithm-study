@@ -11,26 +11,20 @@ class day3{
 		for(int i=0; i<T; i++) {
 			//input 공백으로 구분하여 String 배열에 입력
 			String[] in = br.readLine().split(" ");
+			x = Integer.parseInt(in[0]);
+			y = Integer.parseInt(in[2]);
 			//in[1] : 연산자
 			switch(in[1]) {
 			case "+" :
-				x = Integer.parseInt(in[0]);
-				y = Integer.parseInt(in[2]);
 				ans += x + y;
 				break;
 			case "-" :
-				x = Integer.parseInt(in[0]);
-				y = Integer.parseInt(in[2]);
 				ans += x - y;
 				break;
 			case "*" :
-				x = Integer.parseInt(in[0]);
-				y = Integer.parseInt(in[2]);
 				ans += x * y;
 				break;
 			case "/" :
-				x = Integer.parseInt(in[0]);
-				y = Integer.parseInt(in[2]);
 				ans += x / y;
 				break;
 			}
