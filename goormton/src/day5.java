@@ -11,12 +11,11 @@ class day5 {
 		@Override
 		public int compareTo(num o){
 			if(this.cnt==o.cnt){
-				return this.x-o.x;
+				return o.x - this.x;
 			}
-			else if(this.cnt<o.cnt){
-				return -1;
+			else {
+				return o.cnt-this.cnt;
 			}
-			else return 1;
 		}
 	}
 	static int N, K;
@@ -33,9 +32,8 @@ class day5 {
 			String binary = Integer.toBinaryString(input);
 			arr.add(new num(input, countOne(binary)));
 		}
-		Collections.sort(arr, Collections.reverseOrder());
-		num ans = (num) arr.get(K-1);
-		System.out.println(ans.x);
+		Collections.sort(arr);
+		System.out.println(arr.get(K-1).x);
 		br.close();
 	}
 	static int countOne(String str){
