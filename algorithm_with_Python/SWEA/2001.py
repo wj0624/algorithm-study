@@ -11,5 +11,4 @@ for test_case in range(1, T+1):
                 for l in range(M):
                     sum += arr[i+k][j+l]
             ans = max(ans, sum)
-
     print(f"#{test_case} {ans}")
