@@ -1,3 +1,4 @@
+#등차수열 만들기
 #등차수열 y-x = z-y
 T = int(input())
 for test_case in range(1,T+1):

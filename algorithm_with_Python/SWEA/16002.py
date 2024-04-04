@@ -1,3 +1,5 @@
+#합성수 방정식
+
 T = int(input())
 
 for test_case in range(1, T+1):

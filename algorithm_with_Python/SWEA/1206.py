@@ -1,3 +1,5 @@
+#View, 건물 조망권 문제
+
 T = 10
 
 for test_case in range(1, T+1):

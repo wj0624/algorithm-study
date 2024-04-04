@@ -1,3 +1,5 @@
+#체스판 위 룩 배치
+
 T = int(input())
 
 for test_case in range(1, T+1):

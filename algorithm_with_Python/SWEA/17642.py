@@ -1,3 +1,5 @@
+#최대 조작횟수
+
 T = int(input())
 
 for test_case in range(1, T+1):
