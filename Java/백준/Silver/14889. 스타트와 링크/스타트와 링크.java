@@ -3,18 +3,20 @@ import java.util.*;
 
 public class Main {
 	static int N;
-	static int result = Integer.MAX_VALUE;
 	static int [][] arr;
+	static int startTeam, linkTeam;
+	static int result = Integer.MAX_VALUE;
 	static boolean [] visited;
-
+	
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st;
 		
+		//입력
 		N = Integer.parseInt(br.readLine());
 		arr = new int[N][N];
-		visited = new boolean[N];
+		visited = new boolean [N];
 		
+		StringTokenizer st;
 		for(int i=0; i<N; i++) {
 			st = new StringTokenizer(br.readLine());
 			for(int j=0; j<N; j++) {
@@ -25,48 +27,54 @@ public class Main {
 		dfs(0, 0);
 		
 		System.out.println(result);
+		
 	}
 	
+	//팀 조합 만들기
 	static void dfs(int t, int count) {
-		//팀 조합 완성될 경우
-		if(count == N/2) {
+		//탈출조건
+		if(count==N/2) { //팀조합이 완성됐다면
 			diff();
 			return;
 		}
 		
-		for(int i=t; i<N; i++) {
+		for(int i=t; i<N; i++) {//t부터 시작
 			if(!visited[i]) {
-				visited[i] = true;
+				visited[i] = true;	//방문 됐다면 true로 처리하고
 				dfs(i+1, count+1);
-				visited[i] = false;
+				visited[i] = false; //다시 false로
 			}
 		}
 	}
 	
 	static void diff() {
-		int team_start = 0;
-		int team_link = 0;
+		startTeam = 0;
+		linkTeam = 0;
+		
+		//팀별로 능력치 합 구하기
 		for(int i=0; i<N-1; i++) {
 			for(int j=i+1; j<N; j++) {
-				//true면 스타트팀
-				if(visited[i]==true&&visited[j]==true) {
-					team_start += arr[i][j] + arr[j][i];
+				//visited가 true면 startTeam으로 분류
+				if(visited[i]&&visited[j]) {
+					startTeam += arr[i][j] + arr[j][i];
 				}
-				//flase면 링크팀
-				if(visited[i]==false&&visited[j]==false) {
-					team_link += arr[i][j] + arr[j][i];
+				//visited가 false면 linkTeam으로 분류
+				else if((!visited[i])&&(!visited[j])) {
+					linkTeam += arr[i][j] + arr[j][i];
 				}
 			}
 		}
 		
-		int val = Math.abs(team_start-team_link);
+		//두 팀간의 능력치 차이 구하기
+		int diff = Math.abs(startTeam-linkTeam);
 		
-		if(val==0) { //차이가 0이면 최소값이므로 종료
-			System.out.println(val);
+		if(diff==0) { //차이가 0이면 무조건 최소값이므로 종료
+			System.out.println(diff);
 			System.exit(0);
 		}
 		
-		result = Math.min(result, val);
+		//이전에 구한 값과 비교하여 최소값을 result에 저장
+		result = Math.min(result, diff);
 	}
 
 }
