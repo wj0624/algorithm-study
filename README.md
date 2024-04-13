@@ -1,5 +1,6 @@
 # 💥알고리즘 스터디👊💥 
-<img src="https://img.shields.io/badge/Java-2C2255?style=for-the-badge&logo=Eclipse-IDE&logoColor=white"/> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Java-2C2255?style=for-the-badge&logo=Eclipse-IDE&logoColor=white"/> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white"/> 
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
 
 🌱 잔디심기 도전 ing (24.04.04 ~ ) 🌱
   
